@@ -1,3 +1,65 @@
 .header {
-    border: 5px blue solid;
+
+}
+
+.header_1 {
+    background-color: #000E36;
+    color: white;
+}
+
+.container_1_header{
+    margin-left: 300px;
+    margin-right: 300px;
+    display: flex;
+}
+.logos img {
+    width: 30px;
+    margin-left: 10px;
+}
+
+.logos_linia {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.parrafo_header_1 {
+    align-items: center;
+    display: flex;
+}
+
+.header_2 {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.logo_empresa img {
+    width: 120px;
+}
+
+.nav_header_2 ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.container_2_header {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+
+
+
+main {
+    background-image: url(img/empresario_.jpg);
+    background-size: cover;
+}
+
+
+
+.footer {
+    background-color: #001a57;
+    color: white;
 }
