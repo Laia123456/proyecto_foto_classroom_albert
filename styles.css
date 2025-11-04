@@ -1,65 +1,99 @@
-.header {
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
+.header {
 }
 
 .header_1 {
-    background-color: #000E36;
-    color: white;
+  background-color: #000e36;
+  color: white;
 }
 
-.container_1_header{
-    margin-left: 300px;
-    margin-right: 300px;
-    display: flex;
+.header a {
+  text-decoration: none;
+  color: #000e36;
+  list-style: none;
+}
+
+.container_1_header {
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
 }
 .logos img {
-    width: 30px;
-    margin-left: 10px;
+  width: 30px;
+  margin-left: 10px;
 }
 
 .logos_linia {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
 }
 
 .parrafo_header_1 {
-    align-items: center;
-    display: flex;
+  align-items: center;
+  display: flex;
 }
 
 .header_2 {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  color: #000e36;
 }
 
 .logo_empresa img {
-    width: 120px;
+  width: 120px;
 }
 
 .nav_header_2 ul {
-    list-style: none;
-    display: flex;
-    gap: 30px;
+  list-style: none;
+  display: flex;
+  gap: 30px;
 }
 
 .container_2_header {
-    margin-left: 100px;
-    margin-right: 100px;
-    display: flex;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 300px;
+  margin-right: 300px;
 }
 
-
-
-
-main {
-    background-image: url(img/empresario_.jpg);
-    background-size: cover;
+.textos_foto {
+  color: #001a57;
+  padding: 300px;
 }
 
+.foto_empresario {
+  background-image: url(img/empresario_.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+footer {
+  background-color: #001a57;
+  color: white;
+}
 
-.footer {
-    background-color: #001a57;
-    color: white;
+.container_1_footer {
+  margin-left: 300px;
+  margin-right: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.parrafo_1_footer {
+  display: flex;
+  align-items: center;
+}
+
+.parrafo_2_footer {
+  color: #ffffff9f;
+  display: flex;
+  align-items: center;
+}
+
+.boton_footer {
+  display: flex;
+  align-items: center;
 }
